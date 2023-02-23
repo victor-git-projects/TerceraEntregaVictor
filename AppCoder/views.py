@@ -25,6 +25,10 @@ def estudiantes(request):
     #return HttpResponse("vista estudiantes")
 
 
+def cursoFormulario(request):
+    return render(request, 'AppCoder/cursoFormulario.html')
+    #return HttpResponse("vista estudiantes")
+
 """
 Esto solo fue una prueba, ya no es necesario par ael proyecto
 
